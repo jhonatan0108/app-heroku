@@ -82,6 +82,8 @@ test:
 #
 production:
   <<: *default
-  database: rails-api_production
-  username: rails-api
-  password: <%= ENV['RAILS-API_DATABASE_PASSWORD'] %>
+host: ec2-54-83-27-165.compute-1.amazonaws.com
+database: da7s4kqb3cjg3e
+user : welkktolkaagor
+port: 5432
+password: a091d83154209abaf72d4806f5d70218cac053d0f1e1f9e607a528737422b307
